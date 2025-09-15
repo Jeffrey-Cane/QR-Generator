@@ -3,7 +3,7 @@
 from pyzbar.pyzbar import decode
 from PIL import Image   
 # Open the image file
-image = Image.open('linkein_qr_code.png')
+image = Image.open('linkein_qr_code.png')# enter the qr image here
 # Decode the QR code
 decoded_objects = decode(image) 
 # Print the decoded data
